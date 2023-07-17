@@ -1,6 +1,6 @@
-# pygibberish
+# gibberishpy
 
-pygibberish is a Python-based application designed to analyze and identify gibberish in a given string. The application leverages the principles of Markov Chains, a mathematical system that undergoes transitions from one state to other on a state space, to calculate both additive and multiplicative probabilities. pygibberish allow users to build their own model with custom txt file.
+gibberishpy is a Python-based application designed to analyze and identify gibberish in a given string. The application leverages the principles of Markov Chains, a mathematical system that undergoes transitions from one state to other on a state space, to calculate both additive and multiplicative probabilities. gibberishpy allow users to build their own model with custom txt file.
 
 
 ## Usage Examples
@@ -8,7 +8,7 @@ pygibberish is a Python-based application designed to analyze and identify gibbe
 Build Model
 -----------
 
-    from pygibberish.scanner import GibberishScanner
+    from gibberishpy.scanner import GibberishScanner
     
     
     if __name__ == "__main__":
@@ -19,7 +19,7 @@ Build Model
 Scan Gibberish
 --------------
 
-    from pygibberish.scanner import GibberishScanner
+    from gibberishpy.scanner import GibberishScanner
     
     
     if __name__ == "__main__":
